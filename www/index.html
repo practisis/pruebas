@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Bootstrap 101 Template</title>
+			<link href="css/bootstrap.min.css" rel="stylesheet">
+			<style> 
+				    #cont_escalable { display:block; }
+					 @media only screen and (orientation:portrait){
+						#cont_escalable {  
+							  -webkit-transform: rotate(90deg);
+							  -moz-transform: rotate(90deg);
+							  -o-transform: rotate(90deg);
+							  -ms-transform: rotate(90deg);
+							  transform: rotate(90deg);
+							  color:red;
+							 }
+			 
+					 }
+					 @media only screen and (orientation:landscape){
+						#cont_escalable {  
+							  -webkit-transform: rotate(0deg);
+							  -moz-transform: rotate(0deg);
+							  -o-transform: rotate(0deg);
+							  -ms-transform: rotate(0deg);
+							  transform: rotate(0deg);
+							 }
+					 }
+			</style>
+		</head>
+		<body >
+			<div id='cont_escalable'>
+				<h1>Hola a todos probando</h1>
+			</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		</body>
+	</html>
